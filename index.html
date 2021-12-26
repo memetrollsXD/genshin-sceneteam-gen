@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS Utils</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <h1 id='title'>PS Utils</h1> <button id="autoFillBtn">Auto Fill</button> <button id="clearBtn">Clear</button>
+        <p id='subtitle'>Choose your loadout</p>
+        <datalist id="charList"></datalist>
+        <label for='input' id='inputL'>Party #1</label>
+        <input type="text" list="charList" id='input' placeholder="Input #1"> <label for='input2' id='input2L'>Party #2</label> <input type="text" list="charList" id='input2' placeholder="Input #3"> <br>
+        <label for='input2' id='input3L'>Party #3</label>
+        <input type="text" list="charList" id='input3' placeholder="Input #3"> <label for='input4' id='input4L'>Party #4</label> <input type="text" list="charList" id='input4' placeholder="Input #4"> <br>
+        <textarea id="output"></textarea>
+        <button id="start">Next</button> <button id="debug">Debug</button>
+    </div>
+<footer>Made by LostTree @ CrepePS</footer>
+</body>
+<script src="index.js"></script>
+<script src="dataHandler.js"></script>
+</html>

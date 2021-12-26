@@ -1,0 +1,118 @@
+/* MiHoYo Font */
+@font-face {
+    font-family: 'Genshin';
+    src: url('ja-jp.ttf');
+}
+html, body {
+    background-color: #2F3136;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div {
+    width: auto;
+    max-width: 600px;
+    margin: 5em auto;
+    padding: 2em;
+    background-color: #36393F;
+    color: white;
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+}
+a:link, a:visited {
+    color: #38488f;
+    text-decoration: none;
+}
+@media (max-width: 700px) {
+    div {
+        margin: 0 auto;
+        width: auto;
+    }
+}
+
+button {
+    /* Make the button green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+#start {
+    background-color: #43B581;
+    color: white;
+}
+#autoFillBtn, #clearBtn {
+    display: none;
+    background-color: #7289DA;
+    color: white;
+    padding: 7px 10px;
+}
+#debug {
+    background-color: #fAA61A;
+    color: white;
+}
+
+code {
+    background-color: #202225;
+}
+
+input {
+    display: none;
+    border: none;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 0.5em;
+    width: 100%;
+}
+
+textarea {
+    /* Make it clean */
+    border: none;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 0.5em;
+    width: 100%;
+    display: none;
+}
+
+.grade {
+    color: green;
+    text-decoration: bold;
+}
+
+footer {
+    font-family: 'Genshin';
+    /* Make it stick to the bottom */
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    z-index:1;
+    width:100%;
+    /* Make it go to the right */
+    text-align: left;
+    font-size: 0.8em;
+    color: #828282;
+}
+
+input {
+    /* Make two inputs be next to each other */
+    width: 35%;
+}
+
+.talentInput {
+    width: 10%;
+}
